@@ -5,7 +5,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-  
+<PropertyGroup>
+  <TargetFramework>net8.0</TargetFramework>
+  <PackageId>BTSID</PackageId>
+  <Version>1.0.0</Version>
+  <Authors>Bakri Badawi</Authors>
+  <Company>-</Company>
+  <Description>BTSID is a .NET library that generates unique and short Base36 encoded IDs.</Description>
+  <PackageTags>Base36, ID, Unique, Short</PackageTags>
+  <RepositoryUrl>https://github.com/BakriBadawi/BTSID</RepositoryUrl>
+  <PackageIcon>icon.png</PackageIcon>
+</PropertyGroup>
   
   <ItemGroup>
     <None Update="icon.png">
